@@ -344,7 +344,7 @@ export default function Home() {
             onClick={() => setActiveTab("presencial")}
             >
               <h3 className="text-2xl font-bold mb-2">Atendimento Presencial</h3>
-              <p className="text-muted-foreground mb-6">Atendimento em Olinda</p>
+              <p className="text-muted-foreground mb-6">Atendimento em Olinda & Recife</p>
               <div className="mb-8">
                 <p className="text-4xl font-bold mb-2">Sob Consulta</p>
                 <p className="text-sm text-muted-foreground">Valores personalizados conforme frequência</p>
