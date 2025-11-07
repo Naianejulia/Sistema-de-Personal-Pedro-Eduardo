@@ -1,49 +1,109 @@
 # Sistema de Personal — Pedro Eduardo
 
-Formulário moderno de **Anamnese** para alunos do Personal Trainer Pedro Eduardo. Projeto focado em uma experiência simples, rápida e bonita para coletar dados essenciais do aluno.
+Gerencie alunos, treinos, agenda e evolução física em um só lugar.
 
 ![Preview](https://res.cloudinary.com/dkzhaw7kw/image/upload/v1762523319/Captura_de_tela_2025-11-07_104815_nkmyce.png)
 
 ---
 
-✨ Funcionalidades
+> ✨ Projeto focado em facilitar o dia a dia do personal trainer, com cadastro de alunos, planos, treinos, avaliações e acompanhamento.
 
-Formulário dividido por seções (dados pessoais, objetivos, histórico, etc.)
+---
 
-Layout responsivo e visual profissional
+## 📌 Sumário
+- [Preview](#-preview)
+- [Principais Recursos](#-principais-recursos)
+- [Stack Tecnológica](#-stack-tecnológica)
+- [Arquitetura & Pastas](#-arquitetura--pastas)
+- [Começando](#-começando)
+- [Variáveis de Ambiente](#-variáveis-de-ambiente)
+- [Scripts](#-scripts)
+- [Banco de Dados](#-banco-de-dados)
+- [Rotas/Endpoints](#-rotasendpoints)
+- [Boas Práticas](#-boas-práticas)
+- [Deploy na Vercel](#-deploy-na-vercel)
+- [Roadmap](#-roadmap)
+- [Contribuição](#-contribuição)
+- [Licença](#-licença)
 
-Ícones intuitivos e feedbacks de interação
+---
 
-Validações básicas de campos
+## 👀 Preview
+<!-- Substitua pelas suas imagens -->
+<!-- Arraste seus prints para a pasta /docs e atualize os paths -->
+| Login | Dashboard | Aluno |
+|------|-----------|-------|
+| ![Login](docs/preview-login.png) | ![Dashboard](docs/preview-dashboard.png) | ![Aluno](docs/preview-aluno.png) |
 
-Pronto para publicar no Netlify / Vercel / GitHub Pages
+---
 
-🔧 Stack / Tecnologias
+## 🚀 Principais Recursos
+- Cadastro e gestão de **alunos** (dados pessoais, contato, status)
+- Controle de **planos**, **pagamentos** e vencimentos
+- Criação e prescrição de **treinos** por objetivo/grupo muscular
+- **Agenda** de treinos/consultas com calendário
+- **Avaliações físicas** (medidas, fotos de evolução, IMC, BF%)
+- **Relatórios** e exportações (PDF/CSV) *(opcional)*
+- **Autenticação** com níveis de acesso *(Personal / Admin)*
+- **Dark/Light theme** e interface responsiva
 
-HTML5
+---
 
-CSS3
+## 🛠️ Stack Tecnológica
+> Ajuste esta seção conforme seu projeto.
 
-JavaScript (vanilla)
+- **Frontend:** Next.js / React + Tailwind CSS
+- **Backend:** Next.js API Routes **ou** Node.js (Express)
+- **Banco:** PostgreSQL / MySQL / SQLite (via Prisma) *(opcional)*
+- **Auth:** NextAuth/JSON Web Token
+- **Deploy:** Vercel
+- **Qualidade:** ESLint + Prettier
 
-(Opcional) Font Awesome para ícones
+---
 
-Projeto estático (sem backend). Pode ser hospedado em qualquer serviço de páginas estáticas.
+## 🧱 Arquitetura & Pastas
+> Exemplo para Next.js (app router). Adapte se usar pages/ ou Express.
 
-📂 Estrutura de Pastas (sugerida)
-/
-├── ficha.html
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── app.js
-│   └── img/
-│       └── logo.png
-└── README.md
+.
+├─ app/
+│ ├─ (auth)/login/page.tsx # tela de login
+│ ├─ dashboard/page.tsx # dashboard principal
+│ ├─ alunos/ # CRUD de alunos
+│ ├─ treinos/ # prescrição/planilhas
+│ ├─ agenda/ # calendário/agenda
+│ ├─ api/ # rotas API (Next.js)
+│ └─ layout.tsx
+├─ components/ # UI components
+├─ lib/ # utils (auth, db, helpers)
+├─ prisma/ # schema.prisma e migrations
+├─ public/ # imagens, ícones
+├─ docs/ # screenshots e docs
+├─ .env.example
+└─ README.md
 
+yaml
+Copy code
 
-👤 Autor
+---
+
+## 🧑‍💻 Começando
+
+### 1) Pré-requisitos
+- Node.js **LTS** (>= 18.x)
+- pnpm **ou** npm **ou** yarn
+- Banco de dados (Postgres/MySQL/SQLite) — *se aplicável*
+
+### 2) Clonar e instalar
+```bash
+git clone https://github.com/<seu-usuario>/<seu-repo>.git
+cd <seu-repo>
+
+# escolha uma opção
+pnpm install
+# ou
+npm install
+# ou
+yarn
 
 Pedro Eduardo — Personal Trainer
 Dev: @Naianejulia
