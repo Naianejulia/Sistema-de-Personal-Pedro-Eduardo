@@ -8,7 +8,6 @@ export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const objectives = [
-    { icon: Dumbbell, title: "Treino de Academia", color: "from-slate-600 to-slate-700" },
     { icon: TrendingUp, title: "Emagrecimento", color: "from-slate-600 to-slate-700" },
     { icon: Heart, title: "Ganho Massa Muscular", color: "from-slate-600 to-slate-700" },
     { icon: Activity, title: "Reabilitação de Lesão", color: "from-slate-600 to-slate-700" },
@@ -131,7 +130,7 @@ export default function Home() {
                 CREF12/PE: 023186-G/PE
               </p>
               <p className="text-lg text-slate-200 max-w-2xl mx-auto leading-relaxed">
-                Transforme seu corpo com consultoria personalizada. Online ou presencial, com acesso à plataforma MFIT para acompanhar seus treinos em tempo real.
+                Transforme seu corpo com consultoria online personalizada, com acesso à plataforma MFIT para acompanhar seus treinos em tempo real.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                 <a href="#planos" className="w-full sm:w-auto">
