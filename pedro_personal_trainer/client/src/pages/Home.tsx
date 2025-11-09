@@ -10,9 +10,8 @@ export default function Home() {
   const objectives = [
     { icon: Dumbbell, title: "Treino de Academia", color: "from-slate-600 to-slate-700" },
     { icon: TrendingUp, title: "Emagrecimento", color: "from-slate-600 to-slate-700" },
-    { icon: Zap, title: "Ganho de Massa", color: "from-slate-600 to-slate-700" },
     { icon: Heart, title: "Ganho Massa Muscular", color: "from-slate-600 to-slate-700" },
-    { icon: Activity, title: "Recuperação de Lesão", color: "from-slate-600 to-slate-700" },
+    { icon: Activity, title: "Reabilitação de Lesão", color: "from-slate-600 to-slate-700" },
     { icon: TrendingUp, title: "Melhora na Performance", color: "from-slate-600 to-slate-700" },
   ];
 
@@ -199,10 +198,6 @@ export default function Home() {
                 <li className="flex items-start gap-2">
                   <span className="text-slate-400 mt-1">✓</span>
                   <span>Correção em tempo real</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-slate-400 mt-1">✓</span>
-                  <span>Avaliação física completa</span>
                 </li>
               </ul>
             </Card>
