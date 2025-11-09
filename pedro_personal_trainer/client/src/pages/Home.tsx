@@ -9,11 +9,11 @@ export default function Home() {
 
   const objectives = [
     { icon: Dumbbell, title: "Treino de Academia", color: "from-slate-600 to-slate-700" },
-    { icon: TrendingUp, title: "Emagrecimento", color: "from-amber-600 to-amber-700" },
-    { icon: Zap, title: "Ganho de Massa", color: "from-rose-600 to-rose-700" },
-    { icon: Heart, title: "Ganho Massa Muscular", color: "from-red-600 to-red-700" },
-    { icon: Activity, title: "Recuperação de Lesão", color: "from-violet-600 to-violet-700" },
-    { icon: TrendingUp, title: "Melhora na Performance", color: "from-emerald-600 to-emerald-700" },
+    { icon: TrendingUp, title: "Emagrecimento", color: "from-slate-600 to-slate-700" },
+    { icon: Zap, title: "Ganho de Massa", color: "from-slate-600 to-slate-700" },
+    { icon: Heart, title: "Ganho Massa Muscular", color: "from-slate-600 to-slate-700" },
+    { icon: Activity, title: "Recuperação de Lesão", color: "from-slate-600 to-slate-700" },
+    { icon: TrendingUp, title: "Melhora na Performance", color: "from-slate-600 to-slate-700" },
   ];
 
   const whatsappLinks = {
@@ -101,49 +101,44 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 bg-gradient-to-br from-slate-900/20 via-background to-slate-900/10 relative overflow-hidden">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute -top-40 -right-40 w-80 h-80 bg-slate-500/5 rounded-full blur-3xl"></div>
-          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-slate-500/5 rounded-full blur-3xl"></div>
+      <section className="pt-32 pb-20 px-4 relative overflow-hidden min-h-[600px] md:min-h-[700px] flex items-center">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src="/pedro_hero_banner.jpg"
+            alt="Pedro Eduardo Personal Trainer"
+            className="w-full h-full object-cover object-center"
+          />
+          {/* Overlay de transparência escura para melhorar legibilidade */}
+          <div className="absolute inset-0 bg-black/50"></div>
         </div>
 
         <div className="container mx-auto relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
-            <div className="space-y-6">
-
-              <h2 className="text-5xl md:text-7xl font-bold leading-tight">
+          <div className="flex justify-center items-center">
+            <div className="text-center space-y-6 max-w-4xl">
+              <h2 className="text-5xl md:text-7xl font-bold leading-tight text-white">
                 <span className="block">Performance</span>
                 <span className="block">esportiva.</span>
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-400 to-slate-500">Estética inteligente.</span>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-300 to-slate-400">Estética inteligente.</span>
               </h2>
-              <p className="text-sm text-muted-foreground mt-2">
+              <p className="text-sm text-slate-300 mt-2">
                 CREF12/PE: 023186-G/PE
               </p>
-              <p className="text-lg text-muted-foreground max-w-md leading-relaxed">
+              <p className="text-lg text-slate-200 max-w-2xl mx-auto leading-relaxed">
                 Transforme seu corpo com consultoria personalizada. Online ou presencial, com acesso à plataforma MFIT para acompanhar seus treinos em tempo real.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+              <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                 <a href="#planos" className="w-full sm:w-auto">
                   <Button size="lg" className="w-full bg-gradient-to-r from-slate-700 to-slate-800 hover:from-slate-800 hover:to-slate-900 shadow-lg hover:shadow-xl transition-all duration-200">
                     Começar Agora
                   </Button>
                 </a>
                 <a href="https://w.app/wno4jb" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
-                  <Button size="lg" variant="outline" className="w-full border-slate-500/30 hover:border-slate-500/60 hover:bg-slate-500/10">
+                  <Button size="lg" variant="outline" className="w-full border-slate-300/50 hover:border-slate-300/80 hover:bg-slate-300/10 text-white">
                     <MessageCircle size={18} className="mr-2" />
                     Fale Comigo
                   </Button>
                 </a>
-              </div>
-            </div>
-            <div className="relative md:block">
-              <div className="absolute inset-0 bg-gradient-to-br from-slate-500/10 to-slate-600/10 rounded-3xl blur-2xl"></div>
-              <div className="relative aspect-square md:aspect-square rounded-3xl overflow-hidden border-2 border-slate-500/30 shadow-2xl">
-                <img
-                  src="/pedro_hero.jpg"
-                  alt="Pedro Eduardo"
-                  className="w-full h-full object-cover"
-                />
               </div>
             </div>
           </div>
