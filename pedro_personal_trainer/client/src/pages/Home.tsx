@@ -104,10 +104,17 @@ export default function Home() {
       <section className="pt-32 pb-20 px-4 relative overflow-hidden min-h-[600px] md:min-h-[700px] flex items-center">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
+          {/* Banner desktop (oculto em mobile) */}
           <img
             src="/pedro_hero_banner.jpg"
             alt="Pedro Eduardo Personal Trainer"
-            className="w-full h-full object-cover object-center"
+            className="hidden md:block w-full h-full object-cover object-top"
+          />
+          {/* Banner mobile (oculto em desktop) */}
+          <img
+            src="/pedro_hero_banner_mobile.jpg"
+            alt="Pedro Eduardo Personal Trainer"
+            className="block md:hidden w-full h-full object-cover object-top"
           />
           {/* Overlay de transparência escura para melhorar legibilidade */}
           <div className="absolute inset-0 bg-black/50"></div>
