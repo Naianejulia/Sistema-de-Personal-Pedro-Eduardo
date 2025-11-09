@@ -113,7 +113,7 @@ export default function Home() {
           <img
             src="/pedro_hero_banner_mobile.jpg"
             alt="Pedro Eduardo Personal Trainer"
-            className="block md:hidden w-full h-full object-cover object-top"
+            className="block md:hidden w-full h-full object-cover object-center"
           />
           {/* Overlay de transparência escura para melhorar legibilidade */}
           <div className="absolute inset-0 bg-black/50 md:bg-black/50"></div>
