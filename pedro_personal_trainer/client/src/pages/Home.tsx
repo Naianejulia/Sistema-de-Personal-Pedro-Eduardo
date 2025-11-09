@@ -117,7 +117,7 @@ export default function Home() {
             className="block md:hidden w-full h-full object-cover object-top"
           />
           {/* Overlay de transparência escura para melhorar legibilidade */}
-          <div className="absolute inset-0 bg-black/50"></div>
+          <div className="absolute inset-0 bg-black/50 md:bg-black/50"></div>
         </div>
 
         <div className="container mx-auto relative z-10">
