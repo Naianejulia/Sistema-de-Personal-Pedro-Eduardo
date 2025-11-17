@@ -25,8 +25,8 @@ export default function Home() {
       <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-md border-b border-border/50 z-50 shadow-lg">
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src="/emblema_novo.png" alt="PE" className="h-12 w-12" />
-            <img src="/texto_navbar.png" alt="Pedro Eduardo Personal Trainer" className="h-8 hidden sm:block" />
+            <img src="/emblema_pedro.png" alt="PE" className="h-8 w-8" />
+            <img src="/logo_pedro.png" alt="Pedro Eduardo Personal Trainer" className="h-8 hidden sm:block" />
           </div>
 
           {/* Desktop Menu */}
