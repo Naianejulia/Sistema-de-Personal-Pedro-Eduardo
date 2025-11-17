@@ -2,8 +2,8 @@
 
 Gerencie alunos, treinos, agenda e evolução física em um só lugar.
 
-[![Preview](https://res.cloudinary.com/dkzhaw7kw/image/upload/v1762523319/Captura_de_tela_2025-11-07_104815_nkmyce.png)](https://res.cloudinary.com/dkzhaw7kw/image/upload/v1763395221/Captura_de_tela_2025-11-17_125931_obwlqh.png)
-
+[[![Preview](https://res.cloudinary.com/dkzhaw7kw/image/upload/v1762523319/Captura_de_tela_2025-11-07_104815_nkmyce.png)](https://res.cloudinary.com/dkzhaw7kw/image/upload/v1763395221/Captura_de_tela_2025-11-17_125931_obwlqh.png)
+](https://res.cloudinary.com/dkzhaw7kw/image/upload/v1763395221/Captura_de_tela_2025-11-17_125931_obwlqh.png)
 ---
 
 > ✨ Projeto focado em facilitar o dia a dia do personal trainer, com cadastro de alunos, planos, treinos, avaliações e acompanhamento.
