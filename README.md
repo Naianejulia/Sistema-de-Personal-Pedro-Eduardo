@@ -2,7 +2,7 @@
 
 Gerencie alunos, treinos, agenda e evolução física em um só lugar.
 
-![Preview](https://res.cloudinary.com/dkzhaw7kw/image/upload/v1763395221/Captura_de_tela_2025-11-17_125931_obwlqh.png)
+![Preview](https://res.cloudinary.com/dkzhaw7kw/image/upload/v1763399500/Captura_de_tela_2025-11-17_141042_kqknsu.png)
 
 ---
 
