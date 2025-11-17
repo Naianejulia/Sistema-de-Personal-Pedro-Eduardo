@@ -15,8 +15,8 @@ export default function Home() {
   ];
 
   const whatsappLinks = {
-    online: "https://w.app/wno4jb",
-    presencial: "https://w.app/wno4jb",
+    online: "https://wa.me/5581986975496?text=Oiee!%20Queria%20saber%20melhor%20sobre%20os%20planos%20de%20Consultoria%20Online.",
+    presencial: "https://wa.me/5581986975496?text=Oiee!%20Queria%20saber%20mais%20sobre%20os%20planos%20presenciais.",
   };
 
   return (
@@ -48,7 +48,7 @@ export default function Home() {
               <Instagram size={20} />
             </a>
             <a
-              href="https://w.app/wno4jb"
+              href="https://wa.me/5581986975496?text=Oiee!%20Queria%20saber%20mais%20sobre%20os%20planos."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition duration-200"
@@ -85,7 +85,7 @@ export default function Home() {
                 <span className="text-sm font-medium">Instagram</span>
               </a>
               <a
-                href="https://w.app/wno4jb"
+                href="https://wa.me/5581986975496?text=Oiee!%20Queria%20saber%20mais%20sobre%20os%20planos."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition w-full justify-center"
@@ -138,7 +138,7 @@ export default function Home() {
                     Começar Agora
                   </Button>
                 </a>
-                <a href="https://w.app/wno4jb" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+                <a href="https://wa.me/5581986975496?text=Oiee!%20Queria%20saber%20mais%20sobre%20os%20planos." target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
                   <Button size="lg" variant="outline" className="w-full border-slate-300/50 hover:border-slate-300/80 hover:bg-slate-300/10 text-white">
                     <MessageCircle size={18} className="mr-2" />
                     Fale Comigo
@@ -381,7 +381,7 @@ export default function Home() {
           </p>
           <div className="flex justify-center gap-4 flex-wrap">
             <a
-              href="https://w.app/wno4jb"
+              href="https://wa.me/5581986975496?text=Oiee!%20Queria%20saber%20mais%20sobre%20os%20planos."
               target="_blank"
               rel="noopener noreferrer"
               className="text-green-500 hover:text-green-400 transition"
@@ -402,7 +402,7 @@ export default function Home() {
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://w.app/wno4jb"
+        href="https://wa.me/5581986975496?text=Oiee!%20Queria%20saber%20mais%20sobre%20os%20planos."
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white rounded-full flex items-center justify-center shadow-2xl hover:shadow-3xl transition-all duration-200 hover:scale-110 z-40"
