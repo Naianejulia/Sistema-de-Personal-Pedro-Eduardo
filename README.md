@@ -6,11 +6,11 @@ Gerencie alunos, treinos, agenda e evolução física em um só lugar.
 
 ---
 
-> ✨ Projeto focado em facilitar o dia a dia do personal trainer, com cadastro de alunos, planos, treinos, avaliações e acompanhamento.
+>  Projeto focado em facilitar o dia a dia do personal trainer, com cadastro de alunos, planos, treinos, avaliações e acompanhamento.
 
 ---
 
-## 📌 Sumário
+##  Sumário
 - [Preview](#-preview)
 - [Principais Recursos](#-principais-recursos)
 - [Stack Tecnológica](#-stack-tecnológica)
@@ -28,7 +28,7 @@ Gerencie alunos, treinos, agenda e evolução física em um só lugar.
 
 ---
 
-## 👀 Preview
+##  Preview
 <!-- Substitua pelas suas imagens -->
 <!-- Arraste seus prints para a pasta /docs e atualize os paths -->
 | Login | Dashboard | Aluno |
@@ -37,7 +37,7 @@ Gerencie alunos, treinos, agenda e evolução física em um só lugar.
 
 ---
 
-## 🚀 Principais Recursos
+##  Principais Recursos
 - Cadastro e gestão de **alunos** (dados pessoais, contato, status)
 - Controle de **planos**, **pagamentos** e vencimentos
 - Criação e prescrição de **treinos** por objetivo/grupo muscular
@@ -49,7 +49,7 @@ Gerencie alunos, treinos, agenda e evolução física em um só lugar.
 
 ---
 
-## 🛠️ Stack Tecnológica
+##  Stack Tecnológica
 > Ajuste esta seção conforme seu projeto.
 
 - **Frontend:** Next.js / React + Tailwind CSS
@@ -61,7 +61,7 @@ Gerencie alunos, treinos, agenda e evolução física em um só lugar.
 
 ---
 
-## 🧱 Arquitetura & Pastas
+## Arquitetura & Pastas
 > Exemplo para Next.js (app router). Adapte se usar pages/ ou Express.
 
 .
@@ -86,7 +86,7 @@ Copy code
 
 ---
 
-## 🧑‍💻 Começando
+##  Começando
 
 ### 1) Pré-requisitos
 - Node.js **LTS** (>= 18.x)
